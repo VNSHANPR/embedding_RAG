@@ -13,6 +13,7 @@ Notebook aims to produce a simple handson to develop understanding on the now co
 *   **Retrieval Augmented Generation(RAG)**
 *   **RAG using PDF documents** 
 
+**Launch in Google Colab!**
 
 
 

@@ -13,8 +13,8 @@ Notebook aims to produce a simple handson to develop understanding on the now co
 *   **Retrieval Augmented Generation(RAG)**
 *   **RAG using PDF documents** 
 
-**Launch in Google Colab!**
-![Open in Google Colab](https://colab.research.google.com/github/VNSHANPR/embedding_RAG/blob/main/Transformers_Intro_embeddings_similarity_search_RAG.ipynb)
+
+![**Launch in Google Colab!**](https://colab.research.google.com/github/VNSHANPR/embedding_RAG/blob/main/Transformers_Intro_embeddings_similarity_search_RAG.ipynb)
 
 
 

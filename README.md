@@ -16,6 +16,8 @@ Notebook aims to produce a simple handson to develop understanding on the now co
 
 ![**Launch in Google Colab!**](https://colab.research.google.com/github/VNSHANPR/embedding_RAG/blob/main/Transformers_Intro_embeddings_similarity_search_RAG.ipynb)
 
+[<img src="http://www.google.com.au/images/nav_logo7.png">](http://google.com.au/)
+
 
 
 

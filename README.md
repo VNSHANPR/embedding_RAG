@@ -13,7 +13,7 @@ Notebook aims to produce a simple handson to develop understanding on the now co
 *   **Retrieval Augmented Generation(RAG)**
 *   **RAG using PDF documents** 
 
-**Luanch Google Colab Notebook! 
+**Luanch Google Colab Notebook!** 
 
 [<img src="https://github.com/VNSHANPR/embedding_RAG/assets/41034062/518a4779-7c1b-44b3-863f-b2042a5f0a99">](https://colab.research.google.com/github/VNSHANPR/embedding_RAG/blob/main/Transformers_Intro_embeddings_similarity_search_RAG.ipynb)
 

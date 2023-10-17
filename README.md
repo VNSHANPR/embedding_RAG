@@ -5,12 +5,18 @@
 
 Notebook aims to produce a simple handson to develop understanding on the now common but important terms in the NLP world like Transformers, self attention, similarity search, RAG & Interactions with PDFs. 
 
-*   Tokenization & Word **Embeddings** using [Sentence transformers](https://https://www.sbert.net/) library based on Google BERT (Bidirectional Encoder Representations from **Transformers**)
+*   Tokenization & Word **Embeddings** using ![Sentence transformers](https://https://www.sbert.net/) library based on Google BERT (Bidirectional Encoder Representations from **Transformers**)
+  
 *   **Visualize** word embeddings in 2D Space & learn basics of **Similarity search**.
+  
 *   Build FAISS (Facebook AI Similarity Search) Index on vectorized data and use it for Similarity search.
+  
 *   Build Intuition of a **Vector database** and how these embeddings can be stored.
+  
 *   Use embeddings generated on **Internal documents** ( to answer user questions using Large Language models e.ge OpenAI GPT 3 & a ChatGPT example.
+  
 *   **Retrieval Augmented Generation(RAG)**
+  
 *   **RAG using PDF documents** 
 
 **Luanch Google Colab Notebook!** 

@@ -1,7 +1,7 @@
 
 
 # **TRANSFORMERS** : Basic Introduction & some fun!
-<img width="540" alt="transformers_blog" src="https://github.com/VNSHANPR/embedding_RAG/assets/41034062/08f005a8-e19c-45b2-a67d-40e7e773ed86">
+<img width="800" alt="transformers_blog" src="https://github.com/VNSHANPR/embedding_RAG/assets/41034062/08f005a8-e19c-45b2-a67d-40e7e773ed86">
 
 Notebook aims to produce a simple handson to develop understanding on the now common but important terms in the NLP world like Transformers, self attention, similarity search, RAG & Interactions with PDFs. 
 

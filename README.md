@@ -5,7 +5,7 @@
 
 Notebook aims to produce a simple handson to develop understanding on the now common but important terms in the NLP world like Transformers, self attention, similarity search, RAG & Interactions with PDFs. 
 
-*   Tokenization & Word **Embeddings** using ![Sentence transformers](https://https://www.sbert.net/) library based on Google BERT (Bidirectional Encoder Representations from **Transformers**)
+*   Tokenization & Word **Embeddings** using [Sentence transformers](https://https://www.sbert.net/) library based on Google BERT (Bidirectional Encoder Representations from **Transformers**)
   
 *   **Visualize** word embeddings in 2D Space & learn basics of **Similarity search**.
   
@@ -26,24 +26,31 @@ Notebook aims to produce a simple handson to develop understanding on the now co
 # High level basics on Transformers & the Self Attention Mechanism
 Transformer architecture as described in the below paper has been the base of all LLM models, it was initally released for language translation (sequence to sequence model) following an encoder-decoder setup. The architecture proposed "Self attention" using attention vectors to associate each word in a sequence to other other words in the sequence leading to contextual understanding of words.
 
-Attention is all you need
+[**Attention is all you need**](https://arxiv.org/pdf/1706.03762.pdf)
 
 input sequence : "how are you doing today?" output sequence : "I'm am fine"
 
-Encoder (input)
+**Encoder (input)**
 
-Input embeddings: Encode the input sequence (Word embeddings)
-Positional Encoding: modify the input embedding by giving weightage to the position of the word in sequence.
-Self Attention : Associate each individual words in a sequence to other words. (This is the job of Multi-head attention mechanism in the Transformers Architecture). Each self attention process is called a "head" and the output is a attention vector for each word in the input sequence.
-Modern GPU Architecture : All the words in the sequence can be processed simultaneously using parallelization offered from the moder GPU architecture.
-Decoder (output)
+**Input embeddings**: Encode the input sequence (Word embeddings)
+
+**Positional Encoding**: modify the input embedding by giving weightage to the position of the word in sequence.
+
+**Self Attention** : Associate each individual words in a sequence to other words. (This is the job of Multi-head attention mechanism in the Transformers Architecture). Each self attention process is called a "head" and the output is a attention vector for each word in the input sequence.
+
+**Utilize Modern GPU Architecture** : All the words in the sequence can be processed simultaneously using parallelization offered from the moder GPU architecture.
+
+**Decoder (output)**
 
 works on the output of the encoder layer & also the raw embeddings.
+
 self attention mechanism uses "Masking" to focus on left side words.
-Similar multi-head attention is used in the decoder
+
+Similar multi-head attention is used in the decoder.
+
 Encoding words using BERT embeddings leads to a vector of dimension 768.
 
-Input context length is 512.(512 token at a time)
+Input context length is 512 (512 token at a time)
 
 ![image](https://github.com/VNSHANPR/embedding_RAG/assets/41034062/45011745-853e-402a-9e39-9e3cca88a723)
 
@@ -53,10 +60,7 @@ Input context length is 512.(512 token at a time)
 
 > Now we create a **word list** and encode them into BERT word embeddings with 768 dimensions ( Vector size 768) and then try convert them to 2 dimensions using Principal Component Analysis (PCA). This will give us a way to visualize the embedding vectors and see how they are seperate in the embedding space.
 
-
 > In the output chart you see "Cat' & "Kitten" together , "houses" are farther away etc.
-
-
 
 ![image](https://github.com/VNSHANPR/embedding_RAG/assets/41034062/a2d058cf-5de7-47ca-b90a-f3b96f9eccf5)
 

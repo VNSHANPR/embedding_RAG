@@ -14,7 +14,7 @@ Notebook aims to produce a simple handson to develop understanding on the now co
 *   **RAG using PDF documents** 
 
 **Launch in Google Colab!**
-![image](https://github.com/VNSHANPR/embedding_RAG/assets/41034062/837d2be4-7fd6-4386-b566-1baa861edcf7)
+![Open in Google Colab](https://colab.research.google.com/github/VNSHANPR/embedding_RAG/blob/main/Transformers_Intro_embeddings_similarity_search_RAG.ipynb)
 
 
 

@@ -1,0 +1,208 @@
+{"response_code": 0,
+    "results": [
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "SAP AI",
+            "question": "SAP announced Joule as a Gen AI Digital Assistant recently, where is the word Joule derived from?",
+            "correct_answer": "Unit of Energy",
+            "incorrect_answers": [
+                "Its cool",
+                "Ethanol",
+                "Formaldehyde"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "SAP AI",
+            "question": "Which of the below is a fundamental AI technology behind solutions like Joule?",
+            "correct_answer": "Genarative AI",
+            "incorrect_answers": [
+                "ChatGPT",
+                "GPT 3.5",
+                "Google BERT"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "As per the SAP AI reference architecture , which one of the below provides deterministic knowledge on SAP Business context?",
+            "correct_answer": "KG4 - SAP Knowledge Graph",
+            "incorrect_answers": [
+                "SAP database",
+                "HANA cloud",
+                "RAG"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "For SAP Business AI which is the foundation platform to run the various AI scenarios?",
+            "correct_answer": "SAP BTP - AI Core",
+            "incorrect_answers": [
+                "S/4 HANA",
+                "Hyperscales like Azure, GCP, AWS",
+                "SAP HANA"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "Large Language models (LLMs) do not contain information beyond training data set or SAP specific/customer specific information, which is a propuler Grounding technique to provide additional context?",
+            "correct_answer": "RAG - Retrieval Augmented Generation",
+            "incorrect_answers": [
+                "Lora & qLora",
+                "PEFT : Parameter efficient training",
+                "LLM model weight quantization"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "What is the vector representation of Text, videos, images etc popularly called in the context of Genrative AI?",
+            "correct_answer": "Embeddings",
+            "incorrect_answers": [
+                "vector databases",
+                "floating point numbers",
+                "vectors"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "What is the use of a Vector Database?",
+            "correct_answer": "Store vector representation of data and perform similariy search",
+            "incorrect_answers": [
+                "a regular database",
+                "perform analytical calculations",
+                "in memory database"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "Which was of the following feature was announed by SAP in Teched'23 in SAP HANA Cloud to enable AI usecases?",
+            "correct_answer": "Vector database feature",
+            "incorrect_answers": [
+                "Training of LLMs",
+                "Full Text search",
+                "Advanced ML models"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "Which future BTP AI service will allow access to many Gen AI models like GPT/Falcon/LLAMA/Antropic directly from AI Core/Launchpad?",
+            "correct_answer": "Gen AI Hub",
+            "incorrect_answers": [
+                "AI Business service",
+                "SAP BTP cockpit",
+                "SAP Integration Suite"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "easy",
+            "category": "SAP AI",
+            "question": "Which SAP AI Business service will you use to extract text from Invoices/Images with OCR processing?",
+            "correct_answer": "SAP DoX : Document Information Extraction",
+            "incorrect_answers": [
+                "SAP Data Attribute Recommendation",
+                "SAP Business Entity Recognition",
+                "SAP Personalized Recommendation"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "Which SAP AI Business service will you use to extract text from Invoices/Images with OCR processing?",
+            "correct_answer": "SAP DoX : Document Information Extraction",
+            "incorrect_answers": [
+                "SAP Data Attribute Recommendation",
+                "SAP Business Entity Recognition",
+                "SAP Personalized Recommendation"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "SAP AI",
+            "question": "Which SAP AI Business service will you use to extract text from Invoices/Images with OCR processing?",
+            "correct_answer": "SAP DoX : Document Information Extraction",
+            "incorrect_answers": [
+                "SAP Data Attribute Recommendation",
+                "SAP Business Entity Recognition",
+                "SAP Personalized Recommendation"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "Name the solution : Natural Language-driven access of your trusted insights with SAP Analytics Cloud enabling fact-based decision-making through natural language queries and conversational analytics",
+            "correct_answer": "Just ask",
+            "incorrect_answers": [
+                "Smart Insights",
+                "SAC Recommendation service",
+                "SAC Digital Boardroom"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "SAP AI",
+            "question": "A customer using SAP Success factors has requested help to enable personalized training recommendations to their employees. Which AI Business service will you recommend?",
+            "correct_answer": "SAP Personalized Recommendation",
+            "incorrect_answers": [
+                "SAP Data Attribute Recommendation",
+                "SAP Business Entity Recognition",
+                "SAP DoX : Document Information Extraction"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "A customer using SAP Success factors has requested help to enable personalized training recommendations to their employees. Which AI Business service will you recommend?",
+            "correct_answer": "SAP Personalized Recommendation",
+            "incorrect_answers": [
+                "SAP Data Attribute Recommendation",
+                "SAP Business Entity Recognition",
+                "SAP DoX : Document Information Extraction"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "medium",
+            "category": "SAP AI",
+            "question": "A customer is trying to automate manual invoice processing process, even after using OCR to extract information from invoices they stll find need to fill missing accounting fields. Which AI business service can provide proposals of fitting accounting objects?",
+            "correct_answer": "SAP Data Attribute Recommendation",
+            "incorrect_answers": [
+                "SAP Personalized Recommendation",
+                "SAP Business Entity Recognition",
+                "SAP DoX : Document Information Extraction"
+            ]
+        },
+        {
+            "type": "multiple",
+            "difficulty": "hard",
+            "category": "SAP AI",
+            "question": "A customer is trying to automate manual invoice processing process, even after using OCR to extract information from invoices they stll find need to fill missing accounting fields. Which AI business service can provide proposals of fitting accounting objects?",
+            "correct_answer": "SAP Data Attribute Recommendation",
+            "incorrect_answers": [
+                "SAP Personalized Recommendation",
+                "SAP Business Entity Recognition",
+                "SAP DoX : Document Information Extraction"
+            ]
+        }
+        
+    ]}
